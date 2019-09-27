@@ -1,7 +1,7 @@
 ---
 title: "Global Health Research"
 resource_files:
-- 702.Rmd
+- 371-309.Rmd
 - css/custom-learnr.css
 - images/logo_dark.png
 - images/logo.png
@@ -9,7 +9,7 @@ runtime: shiny_prerendered
 output: 
   learnr::tutorial:
     css: css/custom-learnr.css
-subtitle: GLHLTH 702, Duke University
+subtitle: GLHLTH 371/PSY 309, Duke University
 ---
 
 ```{r setup, include=FALSE}
@@ -25,7 +25,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 **Instructor**: [Eric Green, Ph.D.](https://globalhealth.duke.edu/people/faculty/green-eric){target="_blank"}, Duke University
 
-**Teaching Assistant**: Abdoulie Ceesay, abdoulie.ceesay@
+**Teaching Assistant**: Anfal Abdelgadir, anfal.abdelgadir@
 
 ### Overview
 
@@ -354,7 +354,10 @@ By the end of this module, you should be able to:
 | Date    | Session             | 
 |:---------|:--------------------|
 | Nov 26  | Course review |
+| Dec 3  | In-class peer review |
+| Dec 5  | In-class proposal revisions |
 | Dec 14 | Final proposals due at 10pm ET |
+
 <!--
 | Nov 26  | [Course review](){target="_blank"} |
 | Dec 3  | [In-class peer review](){target="_blank"} |
@@ -373,7 +376,7 @@ Getting help is easy. Try the following, in order of priority:
 
 Please limit your emails to personal matters that are not appropriate for class or Piazza. "I don't understand power calculations" is not a personal matter. Emails like this will probably go unanswered, whereas Piazza messages will be rewarded with snappy replies since they benefit everyone.
 
-Enrolled students can access Piazza [here](https://piazza.com/duke/fall2019/glhlth702/home){target="_blank"}.
+Enrolled students can access Piazza [here](https://piazza.com/duke/fall2019/glhlth371psy309/home){target="_blank"}.
 
 ## Not at Duke?
 

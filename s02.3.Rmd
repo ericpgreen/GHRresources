@@ -1,0 +1,117 @@
+---
+title: "Outcomes and indicators"
+resource_files:
+- s02.3.Rmd
+- css/custom-learnr.css
+- images/logo_dark.png
+- images/logo.png
+runtime: shiny_prerendered
+output:
+  learnr::tutorial:
+    css: css/custom-learnr.css
+subtitle: Session 2.3
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+![](https://youtu.be/ReFcz6HSWRU)
+
+In this session we will discuss key measurement concepts, such as how to identify, define, and quantify study constructs. We’ll start by reviewing an example from the global mental health literature and use a conceptual model to think through important targets of measurement. Then we’ll consider what makes a good indicator of study constructs and outcomes and discuss common types of indicators you’ll come across in global health.
+
+### Learning Objectives
+
+* Define key measurement terms and provide examples
+* Identify indicators to measure throughout the causal chain
+* List what makes a good indicator
+* Describe sources of common global health indicators
+* Explain how composite indicators are constructed
+
+## Before class
+
+### Prepare
+
+* Read [GHR Chapter 7](https://read.themethodsection.com/measurement.html){target="_blank"}.
+* Find an impact evaluation relevant to your interests on [JPAL's website](https://www.povertyactionlab.org/evaluations){target="_blank"}.
+* Re-read Patil, S. R., Arnold, B. F., Salvatore, A. L., Briceno, B., Ganguly, S., Colford Jr, J. M., & Gertler, P. J. (2014). The effect of India's total sanitation campaign on defecation behaviors and child health in rural Madhya Pradesh: a cluster randomized controlled trial. [*PLoS Medicine, 11(8), e1001709*](https://drive.google.com/open?id=0Bxn_jkXZ1lxub0xMNGJaVXNxZk0){target="_blank"}.
+* Re-read Patel, V., Weobong, B., Weiss, H. A., Anand, A., Bhat, B., Katti, B., ... & Vijayakumar, L. (2017). The Healthy Activity Program (HAP), a lay counsellor-delivered brief psychological treatment for severe depression, in primary care in India: a randomised controlled trial. [*The Lancet, 389(10065)*](https://tinyurl.com/y5x99dan), 176-185.
+
+### Pre-Class Assessment
+
+```{r pca02-3, echo=FALSE}
+quiz(
+question("In operationalizing a construct, we need to identify a/an _______ that will quantify the construct.",
+  answer("Variable", message = "Variables are the numeric values of an indicator."),
+  answer("Research problem", message = "Research problem should be part of the research question. It should be identified first when designing a new study."),
+  answer("Indicator", correct = TRUE),
+  allow_retry = TRUE
+  ),
+question("_________ is the actual measure of how closely the actual implementation of a treatment or program reflects the intended design.",
+  answer("Treatment fidelity", correct = TRUE),
+  answer("Treatment compliance", message = "Treatment compliance is a measure of the extent to which people were treated or not treated according to their study assignment."),
+  answer("Treatment cost", message = ""),
+  allow_retry = TRUE
+  ),
+question("A researcher interested in assessing the relationship between exposure to mercury and neurodevelopment in children. Concentration of mercury in hair is considered _______ .",
+  answer("An indicator",correct = TRUE),
+  answer("An instrument", message = "The instrument would be the measure used to calculate the concentration of mercury in hair which is a spectrophotometry."),
+  allow_retry = TRUE
+  ),
+question("When indicators are intercorrelated as they are due to a common cause we need to use ____.",
+  answer("An Index", message = "Within an index, indicators are not necessarily correlated and they “cause” the concept that is being measured."),
+  answer("A scale", correct = TRUE),
+  answer("None of the above", message = ""),
+  allow_retry = TRUE
+  ),
+question("Indicators should be ___________ .",
+  answer("DREAMY", correct = TRUE),
+  answer("SLEEPY", message = "Indicators should be Defined, Relevant, Expedient, Accurate, Measurable, customarY."),
+  answer("CATCHY", message = "Indicators should be Defined, Relevant, Expedient, Accurate, Measurable, customarY."),
+  allow_retry = TRUE
+  )
+)
+```
+
+
+
+
+
+<!--
+<iframe height="800" width="100%" src="https://duke.qualtrics.com/jfe/form/SV_bBg1PTRLi5Usjat" frameborder="0"></iframe>
+-->
+
+## During class
+
+### Mini Lecture
+
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vSoNryiNiQ19RTBW_KFPU-3dGKsMQudFhQa6IeOmJt1S2S-fAe4L9OguDVc0jrZ2C-ubjv3g9UlBbOB/pub?start=false&loop=false&delayms=15000){target="_blank"}
+
+### Activity
+
+In the first part of this activity you will review an impact evaluation listed in [JPAL's database of evaluations](https://www.povertyactionlab.org/evaluations){target="_blank"} and identify each part of the flow from research problem to study measurement.
+
+Then we'll return to Patil et al. and the evaluation of the total sanitation campaign in India. You already developed a logic model for this intervention, so the next step is to drill down to outcome definitions. What outcomes did the authors measure, and how did they define each outcome?
+
+These two activities are designed to help you (a) learn how to quickly assess key measurement issues in published work and (b) get a sense of how to be thorough as you prepare a measurement plan for your own studies.
+
+<iframe src="https://drive.google.com/file/d/1UqFUeslscj00TVFRYwo0SfrXuqvlayMX/preview" width="100%" height="480"></iframe>
+
+[Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
+
+## After class
+
+Every student of global health should know the key indicators we track at a population level. The [WHO Global Reference List](https://www.who.int/healthinfo/indicators/2018/en/){target="_blank"} and the [Sustainable Development Goals](https://sustainabledevelopment.un.org){target="_blank"} websites are two excellent resources for learning. An optional activity is explore one of the SDG goals, its targets, and the indicators of these targets. 
+
+Visit [http://unstats.un.org/sdgs/report/2017/](http://unstats.un.org/sdgs/report/2017/){target="_blank"} and select a Sustainable Development Goal. Select a target of this goal and describe the current status for this target. Then visit [http://unstats.un.org/sdgs/metadata/](http://unstats.un.org/sdgs/metadata/){target="_blank"} to find what indicator(s) is used to measure this target. Explain how this indicator is defined and measured.
+
+1. Goal name/number          
+2. Target name/number     
+3. Current status for target 
+4. Indicator name/number
+5. Definition
+6. Measurement
+

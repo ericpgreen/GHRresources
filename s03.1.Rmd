@@ -1,0 +1,76 @@
+---
+title: "Research designs and causal inference"
+resource_files:
+- s03.1.Rmd
+- css/custom-learnr.css
+- images/logo_dark.png
+- images/logo.png
+runtime: shiny_prerendered
+output:
+  learnr::tutorial:
+    css: css/custom-learnr.css
+subtitle: Session 3.1
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+![](https://youtu.be/xRQlg-N_miQ)
+
+### Learning Objectives
+
+* Understand the fundamental challenge of causal inference and strategies for building a causal argument
+* Describe counterfactual thinking
+* Explain the concept of internal validity
+* List common threats to internal validity and how these threats can be minimized through design
+
+## Before class
+
+### Prepare
+
+* Chapter 4, "What Causes What?" in Spiegelhalter, D. (2019). [*The Art of Statistics: How to Learn from Data*](https://amzn.to/30y5KUT){target="_blank"} (P)
+* Chapters 1 and 2 in Shadish, W.R., Cook, T.D., & Campbell, D. (2001). [*Experimental and Quasi-Experimental Designs for Generalized Causal Inference*](https://books.google.com/books/about/Experimental_and_Quasi_experimental_Desi.html?id=o7jaAAAAMAAJ){target="_blank"} (P)
+* Prepare for Zika activity:
+  * ***Skim*** Krauer, F., Riesen, M., Reveiz, L., Oladapo, O. T., Martinez-Vega, R., Porgo, T. V., … & WHO Zika Causality Working Group. (2017). Zika virus infection as a cause of congenital brain abnormalities and Guillain–Barré Syndrome: Systematic review. [*PLoS Medicine, 14(1), e1002203*](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5207634/){target="_blank"}. Focus on causality framework.
+  * Read [supplemental file](https://journals.plos.org/plosmedicine/article/file?id=info%3Adoi/10.1371/journal.pmed.1002203.s002&type=supplementary){target="_blank"} describing conceptual approach
+  * Read [S2 Table](https://journals.plos.org/plosmedicine/article/file?id=info%3Adoi/10.1371/journal.pmed.1002203.s005&type=supplementary){target="_blank"} describing Zika causality framework.
+
+
+## During class
+
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vSRMBxaewbPoIqwdtVgF97ee5hv-K5-LCmV_5ROjfFRhkDRwobgIMpCvOMciao-Kd_zlYkb1LFlSgS_/pub?start=false&loop=false&delayms=15000)
+
+### Activity
+
+In October 2015, Brazil reported an unusual increase in the number of cases of microcephaly among newborns. This announcement came several months after reports of Zika virus circulating in the country. Physicians and public health officials worried about a possible link between Zika and microcephaly. Before the end of the year, the WHO organized a 5-day mission to Brazil for experts to review available data, inform the design of new studies, and assess laboratory capacity. A systematic review of the evidence followed, and on September 7, 2016, a WHO expert panel concluded:
+
+> The most likely explanation of available evidence from outbreaks of Zika virus infection and clusters of microcephaly is that Zika virus infection during pregnancy is a cause of congenital brain abnormalities including microcephaly.
+
+In this activity you will examine how the expert panel came to this conclusion as an example of causal inference in epidemiology. 
+
+<iframe src="https://drive.google.com/file/d/12soVXLk4Rcxewz8eXONYsNqXdlC1Rna7/preview" width="100%" height="480"></iframe>
+  
+[Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
+
+## After class
+
+![](https://youtu.be/FNpcwiOme1g)
+
+There are a lot of great resources online for learning more about causal inference. The video above introduces Duke's [Causal Inference Bootcamp](https://modu.ssri.duke.edu/module/introduction-causal-inference){target="_blank"}. Here are a few other courses to check out:
+
+* [Causal Inference with R](https://online.duke.edu/course/causal-inference-with-r-introduction/)
+* [Causal Inference, Coursera](https://www.coursera.org/learn/causal-inference){target="_blank"}
+* [A Crash Course in Causality, Coursera](https://www.coursera.org/learn/crash-course-in-causality){target="_blank"}
+
+You might also be interested in the following books:
+
+* Hernán M.A. & Robins J.M. (2019). [Causal Inference](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/){target="_blank"}.
+* Pearl, J. (2018). [The Book of Why](https://amzn.to/2M35oAp){target="_blank"}.
+* Pearl, J., Glymour, M., & Jewell, N.P. (2016). [Causal Inference in Statistics: A Primer](https://amzn.to/32SBGF5){target="_blank"}.
+* Imbens, G.W. & Rubin, D.B. (2015). [Causal Inference for Statistics, Social, and Biomedical Sciences: An Introduction](https://amzn.to/31DcTVh){target="_blank"}.
+
+

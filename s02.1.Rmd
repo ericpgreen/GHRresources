@@ -1,0 +1,102 @@
+---
+title: "Research questions and aims"
+resource_files:
+- s02.1.Rmd
+- css/custom-learnr.css
+- images/logo_dark.png
+- images/logo.png
+runtime: shiny_prerendered
+output:
+  learnr::tutorial:
+    css: css/custom-learnr.css
+subtitle: Session 2.1
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+![](https://youtu.be/NwaKaYT9yyo)
+
+In this session we'll learn to take a broad research problem and develop narrowly defined research questions and study aims. To ask a good research question you need to know what type of question you want to ask, so we'll discuss how to decide. Some questions are descriptive (e.g., What is the prevalence of condom use among adolescent males in Nigeria?). Other questions are predictive or relational (e.g., To what degree are wealth and smartphone ownership correlated?). But a lot of questions that drive policy are causal in nature (e.g., What is the impact of text message reminders on medication adherence?). Once you know what type of question you want to ask, a mnemonic like PICO or FINER can guide how you construct the question. The next step is to turn your research question into a study proposal anchored in a few specific aims that represent the work products you will complete within a given project period. We'll walk through an example that shows the lifecycle of a good research question. 
+
+### Learning Objectives
+
+* Understand the different types of research questions
+* Construct a good research question
+* Develop study aims and hypotheses 
+* Explain the lifecycle of a good research question
+
+## Before class
+
+### Prepare
+
+* Read [GHR Chapter 5](https://read.themethodsection.com/aims.html){target="_blank"}.
+* Patel, V., Weobong, B., Weiss, H. A., Anand, A., Bhat, B., Katti, B., ... & Vijayakumar, L. (2017). The Healthy Activity Program (HAP), a lay counsellor-delivered brief psychological treatment for severe depression, in primary care in India: a randomised controlled trial. [*The Lancet, 389(10065)*](https://tinyurl.com/y5x99dan), 176-185. 
+
+### Pre-Class Assessment
+
+```{r pca02-1, echo=FALSE}
+quiz(
+question("A research team would like to assess what proportion of males and females would vote for a Democratic or a Republican candidate in the next presidential election. This is a ________ research question.",
+  answer("Descriptive", message = "Descriptive research question would describe the sample (age, gender,..etc."),
+  answer("Predictive/Relational", correct = TRUE),
+  answer("Causal", "Causal research question would assess whether the candidate's campaign affected (caused) females or males decision."),
+  allow_retry = TRUE
+  ),
+question("After a researcher has stated the specific problem to be studied in an experiment, he must then develop a_________",
+  answer("Summary of the data", message = "Summary will be developed after collection of the data."),
+  answer("Hypothesis", correct = TRUE),
+  answer("Theory", message = "The theory would be an explanation of some aspect of our world that has been confirmed through repeated, falsifiable tests."),
+  answer("Conclusion", message = "Conclusions are made based on the data."),
+  allow_retry = TRUE
+  ),
+question("The researcher is usually interested in testing and rejecting/accepting the _________.",
+  answer("Null hypothesis", correct = TRUE),
+  answer("Alternative hypothesis", message = "This is incorrect."),
+  answer("Both A & B are correct", message = "This is incorrect."),
+  allow_retry = TRUE
+  ),
+question("The hypothetical situation that would happen in the absence of treatment is known as ________ ",
+  answer("Confounding", message = "Confounding is a situation in which the effect or association between an exposure and outcome is distorted by the presence of another variable."),
+  answer("Outcome", message = "Outcome is the possible result of an  ."),
+  answer("Counterfactual", correct = TRUE),
+  allow_retry = TRUE
+  ),
+question("A good research question should be FINER. What does the mnemonic stand for?.",
+  answer("Feasible,Interesting,Novel,Ethical,Relevant", correct = TRUE),
+  answer("Feasible, Involving, Novel,Exciting,Relevant", message = "The mnemonic FINER stand for Involving or Exciting."),
+  answer("Feasible, Interesting,Novel, Ethical, Realistic", message = "The ‘R’ in FINER does not stand for Realistic."),
+  allow_retry = TRUE
+  )
+)
+```
+
+
+
+<!--
+<iframe height="800" width="100%" src="https://duke.qualtrics.com/jfe/form/SV_bBg1PTRLi5Usjat" frameborder="0"></iframe>
+-->
+
+## During class
+
+### Mini Lecture
+
+![](https://youtu.be/eXj2awTC3_I)
+
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vQ4IjWFxgjoBxMe2YwZhF38b8QYKfIkwq0MYnRczCmg5HOnMaUKGMcd5EeAF5lnDjdHJoWfjbIQtf9b/pub?start=false&loop=false&delayms=15000){target="_blank"}
+
+### Activity
+
+In this activity you will practice writing Specific Aims by reverse engineering a published study. Your task is to make the case the authors probably made to get the study funded. Use the Introduction, Method, and possibly parts of the Discussion sections to complete the worksheet (don't describe the results).
+
+<iframe src="https://drive.google.com/file/d/1i_ZYGI1-rzl3bx_GGahBXEunAFkHWGOS/preview" width="100%" height="480"></iframe>
+
+[Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
+
+## After class
+
+An optional activity is to read [this advice from NIAID on drafting Specific Aims](https://www.niaid.nih.gov/grants-contracts/draft-specific-aims) and [review these example grant proposals](https://www.niaid.nih.gov/grants-contracts/sample-applications).

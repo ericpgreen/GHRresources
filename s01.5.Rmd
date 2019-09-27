@@ -1,0 +1,95 @@
+---
+title: "Critical appraisal"
+resource_files:
+- s01.5-Critical appraisal.Rmd
+- css/custom-learnr.css
+- images/logo_dark.png
+- images/logo.png
+runtime: shiny_prerendered
+output:
+  learnr::tutorial:
+    css: css/custom-learnr.css
+subtitle: Session 1.5
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Overview
+
+![](https://youtu.be/o1AJqcnLkWk)
+
+Critical appraisal is an important part of the scientific process. It’s what we do when asked to review a manuscript prior to publication, evaluate a grant proposal, read a new paper published in our field, and prepare a systematic review or meta-analysis. You might feel unprepared to provide critical feedback on someone else’s work until you know more about research methods, designs, and analysis, but it’s easy to get started if you use a framework like the reporting guidelines published by the Equator Network or some of the tools listed below in additional resources. When it’s time to communicate your feedback, be nice. Be critical, be honest about the flaws you perceive, but always be nice and assume that the authors did their best. If their best is not publishable and cannot be fixed with revision, then recommend that the paper be rejected or the grant not funded. It happens. Even in rejecting someone’s work you can offer ideas for improvement.
+
+### Learning Objectives
+
+* Critically appraise scientific work
+* Outline the anatomy of a scientific paper
+* Deliver constructive feedback
+
+## Before class
+
+### Prepare
+
+* Read [GHR Chapter 4](https://read.themethodsection.com/critical.html){target="_blank"}.
+* Review [article skimming template](https://drive.google.com/open?id=1y5X_-368KZtesT78Ic6A0PIF-4MxoSqFHNxF_fSjwNA)
+* Read/skim Cot, M., Le Hesran, J. Y., Miailhes, P., Esveld, M., Etya'Ale, D., & Breart, G. (1995). Increase of birth weight following chloroquine chemoprophylaxis during the first pregnancy: results of a randomized trial in Cameroon. [*The American Journal of Tropical Medicine and Hygiene, 53(6)*, 581-585](https://www.ncbi.nlm.nih.gov/pubmed/8561257)
+* Read/skim Villegas, L., McGready, R., Htway, M., Paw, M. K., Pimanpanarak, M., Arunjerdja, R., ... & Nosten, F. (2007). Chloroquine prophylaxis against vivax malaria in pregnancy: a randomized, double‐blind, placebo‐controlled trial. [*Tropical Medicine & International Health, 12(2)*, 209-218](https://www.ncbi.nlm.nih.gov/pubmed/?term=17300627)
+
+### Pre-Class Assessment
+
+```{r pca01-5, echo=FALSE}
+quiz(
+question("Where can you find reporting guidelines for the task of critical appraisal?",
+  answer("Campbell Collaboration", message = "Campbell Collaboration is a great source for finding systematic reviews and meta-analysis in global health."),
+  answer("Cochrane Library", message = "Cochrane is a great source for finding systematic reviews and meta-analysis in global health."),
+  answer("The Equator Network", correct = TRUE),
+  allow_retry = TRUE
+  ),
+question("A study that is highly localized that the results are unlikely to generalize to new people and places, has low _____ .",
+  answer("Internal validity", message = "Internal validity is a way to measure if the research is done properly, i.e was the research done right?"),
+  answer("External validity", correct = TRUE),
+  answer("Impact factor", message = "The impact factor is a measure of the frequency with which the average article in a journal has been cited in a particular year. It is used to measure the importance or rank of a journal by calculating the times it's articles are cited."),
+  allow_retry = TRUE
+  ),
+question("Which of the following must be a major concern when communicating the critical appraisal?",
+  answer("Sampling strategy", correct = TRUE),
+  answer("Technical clarifications", message = "Technical clarifications, such as clarifying how a device works, are minor concerns"),
+  answer("References", message = "This is a minor concern in which you aim to improve the readability of the paper."),
+  allow_retry = TRUE
+  ),
+question("The process of reviewing manuscripts from peers, commenting on articles, preparing systematic reviews and meta-analyses of published work, and sometimes attempting to replicate published findings in new studies can be broadly termed as _____",
+  answer("Peer review", message = "Peer review is the evaluation of work by experts in the same field. Even though it refers to evaluation work by peers, the term does not broadly define critical appraisal."),
+  answer("Critical appraisal", correct = TRUE),
+  answer("External review", message = ""),
+  allow_retry = TRUE
+  )
+)
+```
+
+
+<!--
+<iframe height="800" width="100%" src="https://duke.qualtrics.com/jfe/form/SV_bBg1PTRLi5Usjat" frameborder="0"></iframe>
+-->
+
+## During class
+
+### Mini Lecture
+
+![](https://youtu.be/UGHd6j8wjsk)
+
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vRg3n1iH8IZjz-79H5YYyjr3Xe6i5NqrTiOs_CXxeXcIldcBKjP4O2llw1OSu4HsBRt5ThYjKs0-QWf/pub?start=false&loop=false&delayms=15000){target="_blank"}
+
+### Activity
+
+In this activity you will critically appraise Cot et al. (1995) and Villegas et al. (2007). The objective is to demonstrate that there are tools and strategies for evaluating the quality of every scientific article.
+
+<iframe src="https://drive.google.com/file/d/1VTrjIczxjmnEpTNScp5B9GQkqkT4IqxW/preview" width="100%" height="480"></iframe>
+
+[Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
+
+## After class
+
+An optional activity is to browse critical appraisal resources from [Duke University](https://guides.mclibrary.duke.edu/ebm/appraise), the [Centre for Evidence-Based Medicine](http://www.cebm.net/critical-appraisal/), and the [BMJ](http://www.bmj.com/about-bmj/resources-readers/publications/how-read-paper). You can also study critical appraisal reviews from the [PedsCCM Evidence Based Journal Club](http://pedsccm.org/journal-club.php). The group disbanded in 2018, but the website includes a database of thousands of reviews of published articles.
