@@ -1,0 +1,44 @@
+---
+title: "Final Paper"
+resource_files:
+- final-371.Rmd
+- css/custom-learnr.css
+- images/logo_dark.png
+- images/logo.png
+runtime: shiny_prerendered
+output:
+  learnr::tutorial:
+    css: css/custom-learnr.css
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Assignment
+
+You have two options for your final paper. You may choose to write a study protocol for a real or imagined study you want to conduct, or you may choose to complete two peer reviews.
+
+### Study Protocol
+
+A clear and thorough protocol (or plan) is essential for every study. Protocols are the basis of funding proposals, ethical review applications, and pre-registration. Some scholars even publish their protocols in outlets like BMJ Open and BMC Public Health.
+
+[This workbook](https://docs.google.com/document/d/19aJEoFRSmZ86NMRu4cuSUhgXQdc57jhdNf295KTpABs/edit?usp=sharing){target="_blank"} will guide you through the process of creating a study protocol and associated elements of a research plan, such as a succinct set of Specific Aims that you would be expected to include if you were applying to the NIH. This is a general template, so you will likely need to seek additional guidance on the essential information needed for your specific case. 
+
+This is a good option for students who are planning a thesis or summer research experience. It is probably more work, so we will spot you 8 extra credit points for taking it on (assignment is out of 34 points).
+
+### Critical Appraisal
+
+Critical appraisal and peer review are core elements of the scientific process. In [this assignment](https://docs.google.com/document/d/15_7Ds9sXoqF01e9Shz-pgLXpO0rLolE5DOYOf9I_ov4/edit?usp=sharing){target="_blank"} you will complete two appraisals. 
+
+**First, you will review this preprint for a proposed randomized controlled trial in Kenya:**
+
+Osborn, T. L., Venturo-Conerly, K. E., Wasil, A., Rodriguez, M., Roe, E., Arango, S., … Weisz, J. R. (2019, June 24). The Shamiri Group Intervention for Adolescent Anxiety and Depression: Study Protocol for a Randomized Controlled Trial of a Lay Provider-Delivered, School-Based Intervention in Kenya. [[Protocol](https://doi.org/10.31234/osf.io/wh6q5){target="_blank"} / [Trial Registry](https://pactr.samrc.ac.za/TrialDisplay.aspx?TrialID=8185){target="_blank"}]
+
+**Second, you will review this completed study submitted for open peer review at Gates Open Research:**
+
+Sarfo FS, Mobula LM, Arthur L et al. (2019). Differential pricing of medicines to improve access to medicines for hypertension and diabetes control in Ghana: The Ghana Access and Affordability Program, a multi-center prospective trial [version 1; peer review: awaiting peer review]. Gates Open Research, 3, 1515. [[Preprint](https://doi.org/10.12688/gatesopenres.13044.1){target="_blank"}
+]
+
+Your review should follow the peer review format outlined in GHR Chapter 4. Unlike previous homework assignments, you may not discuss this assignment with fellow classmates. You are expected to complete this work on your own.

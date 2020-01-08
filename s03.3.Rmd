@@ -39,12 +39,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## During class
 
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vSovq2OiEOJiEEU1ZWdoFG6DrV6Q10HUXuq7ZljwNNrXXRcedx1giUS6hWuYcO4aC0tx3e8yHhYXji4/pub?start=false&loop=false&delayms=15000){target="_blank"}
+
 ### Activity
 
-TBA
+In this activity you will examine several examples of quasi-experimental approaches in the published literature and complete an exercise in which you will generate various quasi-experimental estimates of causal effect and evaluate how they change as the evaluation strategy becomes more rigorous.
+
+#### The quasi-experimentalist John Snow
+
+*This activity was designed by [Amy Finnegan](https://sites.google.com/site/amyfinnegan/home){target="_blank"} (with credit due to [Mastering Metrics](https://www.amazon.com/dp/B00MZG71MC/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1){target="_blank"}). I probably made it less cool with my edits over time.*
+
+Difference-in-difference analysis is one of the oldest tricks in the book. In the mid-1800s, John Snow used this method to discover how residents of London were being infected with cholera.
+
+Snow observed that the Southwark and Vauxhall Company and the Lambeth Company supplied water to high-death-rate districts in South London. Both companies used the Thames—which was highly contaminated—as their water source before 1852. In 1852, the Lambeth Company began to source water from the Thames Ditton river—which was upstream and uncontaminated. Snow was able to show that between 1849 and 1854, districts that remained supplied by the Southwark and Vauxhall Company saw an increase in deaths from cholera while those supplied by the Lambeth Company experienced a reduction in deaths from cholera.
+
+Use [this table](http://www.ph.ucla.edu/epi/snow/table12a.html){target="_blank"} taken from Snow’s original 1855 article to reproduce Snow’s difference-in-difference estimates.
+
+![](images/snowtable.png)
+
+<iframe src="https://drive.google.com/file/d/1thpRYlQnpBGvl6wy-P38Y65NwfMCnjyC/preview" width="100%" height="480"></iframe>
 
 [Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
 
 ## After class
 
-TBA
+Interrupted time series is a great method to know if you plan to work in policy analysis or have access to routinely collected data. Check out [this course on ITS and regression discontinuity](https://www.edx.org/course/policy-analysis-using-interrupted-time-ubcx-itsx-2){target="_blank"} by Michael Law.
+
+![](https://www.youtube.com/watch?v=yuGRrF7KiMQ)

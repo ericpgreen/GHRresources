@@ -39,9 +39,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## During class
 
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vQ-0_WE5K3PnFvS5zjYfK8dppKJ0s4xutw0mYmoNW7_VftC8ZM5vNvHINiE6cokCFKO8N-RpGg8rvI7/pub?start=false&loop=false&delayms=15000){target="_blank"}
+
 ### Activity
 
-TBA
+<iframe src="https://drive.google.com/file/d/1hvvnAvx7IYkgsbNl0a0Vb9oZ_ePor_PL/preview" width="100%" height="480"></iframe>
 
 [Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
 

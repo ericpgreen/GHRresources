@@ -1,0 +1,38 @@
+---
+title: "Sample size and statistical inference"
+resource_files:
+- s04.2.Rmd
+- css/custom-learnr.css
+- images/logo_dark.png
+- images/logo.png
+runtime: shiny_prerendered
+output:
+  learnr::tutorial:
+    css: css/custom-learnr.css
+subtitle: Session 4.2
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Before class
+
+### Prepare
+
+* Read the chapter on Power in Running Randomized Evaluations*.
+
+## During class
+
+[Deck](https://docs.google.com/presentation/d/e/2PACX-1vRSm882gbeohKoFRp7GCV6KgtVkiAly3lYdtu0SpquV-EJx5Y7FIqJIN6Dbdg0HYm5SMueiQUzU1RwI/pub?start=false&loop=false&delayms=15000){target="_blank"}
+
+### Activity
+
+NA
+
+[Download activity sheets](https://drive.google.com/open?id=1VKNGv6buP9iGLPEbrbdYsw1YtcKGNkdE)
+
+## After class
+
+TBA

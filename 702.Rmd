@@ -233,7 +233,7 @@ By the end of this module, you should be able to:
 
 | Assignment                    | Due Date |
 |:------------------------------|:---------|
-| TBA                           | Oct 14      |
+| [Module 3 homework](https://docs.google.com/document/d/1XMOxzERHeNxIldjIudql938QxDGnLnNIbd2LTYYp1F4/edit?usp=sharing){target="_blank"}                           | Oct 14      |
 
 ## Midterm
 
@@ -265,8 +265,8 @@ By the end of this module, you should be able to:
 
 | Date    | Session             | 
 |:---------|:--------------------|
-| Oct 24  | 4.1 Participants, sampling, and recruitment |
-| Oct 29  | 4.2 Sample size and statistical inference |
+| Oct 24  | [4.1 Participants, sampling, and recruitment](https://learn.themethodsection.com/duke/s04-1/){target="_blank"} |
+| Oct 29  | [4.2 Sample size and statistical inference](https://learn.themethodsection.com/duke/s04-2/){target="_blank"} |
 | Oct 31  | 4.3 Quantitative data collection procedures |
 | Nov 5  | 4.4 Qualitative data collection procesures |
 <!--
@@ -353,7 +353,7 @@ By the end of this module, you should be able to:
 
 | Date    | Session             | 
 |:---------|:--------------------|
-| Nov 26  | Course review |
+| Nov 26  | No class |
 | Dec 14 | Final proposals due at 10pm ET |
 <!--
 | Nov 26  | [Course review](){target="_blank"} |
@@ -362,6 +362,9 @@ By the end of this module, you should be able to:
 | Dec 14  | [Final proposals due at 10pm ET](){target="_blank"} |
 -->
 
+| Assignment                    | Due Date |
+|:------------------------------|:---------|
+| [Final paper](https://docs.google.com/document/d/19aJEoFRSmZ86NMRu4cuSUhgXQdc57jhdNf295KTpABs/edit?usp=sharing){target="_blank"}                           | Dec 14 |
 
 ## Get Help
 
